@@ -20,4 +20,6 @@ int main() {
         i++;
     }
     printf("%d", score);
+    delete[] answer;
+    delete[] paper;
 }
